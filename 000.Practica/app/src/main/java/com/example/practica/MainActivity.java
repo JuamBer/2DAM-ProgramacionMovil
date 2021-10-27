@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         next = findViewById(R.id.btnaction);
         exit = findViewById(R.id.btnexit);
 
-        
+
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
