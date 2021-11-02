@@ -1,6 +1,8 @@
 package com.example.practica;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.util.Log;
 import android.widget.*;
 import android.os.Bundle;
 import android.view.*;
@@ -36,6 +38,31 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-            
+
+    @Override
+    protected void onStart(){
+        super.onStart();
+        Log.i("PRACTICA 00", "Estoy onStart");
+    }
+
+    @Override
+    protected void onPause(){
+        super.onPause();
+        Log.i("PRACTICA 00", "Estoy onPause");
+    }
+
+    @Override
+    protected void onRestart(){
+        super.onRestart();
+        Log.i("PRACTICA 00", "Estoy onRestart");
+    }
+
+    @Override
+    protected void onDestroy(){
+        super.onDestroy();
+        Log.i("PRACTICA 00", "Estoy onDestroy");
+    }
+
+
 
 }
