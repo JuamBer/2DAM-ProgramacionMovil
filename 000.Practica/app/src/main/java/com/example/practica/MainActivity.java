@@ -2,6 +2,7 @@ package com.example.practica;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.util.Log;
 import android.widget.*;
 import android.os.Bundle;
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.i("PRACTICA 00", "Estoy onCreate");
 
         msg = findViewById(R.id.tv1);
         usu = findViewById(R.id.input);
@@ -61,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy(){
         super.onDestroy();
         Log.i("PRACTICA 00", "Estoy onDestroy");
+        Intent ejemplo = new Intent(this, Activity2.class);
+        startActivity(ejemplo);
     }
 
 
