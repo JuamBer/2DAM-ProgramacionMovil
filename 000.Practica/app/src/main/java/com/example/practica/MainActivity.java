@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.i("PRACTICA 00", "Estoy onCreate");
+        Log.i("PRACTICA 00", "Estoy onCreate (Pantalla1)");
 
         msg = findViewById(R.id.tv1);
         usu = findViewById(R.id.input);
@@ -44,27 +44,27 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart(){
         super.onStart();
-        Log.i("PRACTICA 00", "Estoy onStart");
+        Log.i("PRACTICA 00", "Estoy onStart (Pantalla1)");
     }
 
     @Override
     protected void onPause(){
         super.onPause();
-        Log.i("PRACTICA 00", "Estoy onPause");
+        Log.i("PRACTICA 00", "Estoy onPause (Pantalla1)");
     }
 
     @Override
     protected void onRestart(){
         super.onRestart();
-        Log.i("PRACTICA 00", "Estoy onRestart");
+        Log.i("PRACTICA 00", "Estoy onRestart (Pantalla1)");
     }
 
     @Override
     protected void onDestroy(){
         super.onDestroy();
-        Log.i("PRACTICA 00", "Estoy onDestroy");
-        Intent ejemplo = new Intent(this, Activity2.class);
-        startActivity(ejemplo);
+        Log.i("PRACTICA 00", "Estoy onDestroy (Pantalla1)");
+        Intent pantalla2 = new Intent(this, Activity2.class);
+        startActivity(pantalla2);
     }
 
 
