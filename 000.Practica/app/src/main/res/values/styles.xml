@@ -2,7 +2,7 @@
 <resources>
     <style name="btnnext">
         <item name="android:fontFamily">@font/jetbrainsmono_regular</item>
-        <item name="android:backgroundTint">#F44336</item>
+        <item name="android:backgroundTint">#009688</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
     <style name="btnexit">
@@ -12,7 +12,7 @@
     </style>
     <style name="tvtitle">
         <item name="android:fontFamily">@font/jetbrainsmono_bold</item>
-        <item name="android:textColor">#FF9800</item>
+        <item name="android:textColor">#c5c5c5</item>
         <item name="android:textSize">25dp</item>
         <item name="android:textStyle">bold</item>
     </style>

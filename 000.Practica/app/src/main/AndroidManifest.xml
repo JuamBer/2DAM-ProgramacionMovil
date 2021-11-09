@@ -10,14 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.000Practica">
         <activity
-            android:name=".Contacts"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".Activity2"
             android:exported="true">
             <intent-filter>

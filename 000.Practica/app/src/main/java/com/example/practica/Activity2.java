@@ -1,19 +1,17 @@
 package com.example.practica;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
-import android.net.Uri;
-import android.util.Log;
+import android.content.*;
+import android.util.*;
 import android.widget.*;
-import android.os.Bundle;
-import android.view.*;
-
+import android.os.*;
+import android.view.View;
+import java.util.ArrayList;
 
 public class Activity2 extends AppCompatActivity{
 
         private Button exit;
-
+        private ArrayList<ContactsInfo> contactsInfoList;
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +22,6 @@ public class Activity2 extends AppCompatActivity{
 
 
             exit = findViewById(R.id.btnexit);
-
 
             exit.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -57,11 +54,19 @@ public class Activity2 extends AppCompatActivity{
             super.onDestroy();
             Log.i("PRACTICA 00", "Estoy onDestroy (Pantalla2)");
 
-            Intent pantalla3 = new Intent(this, Contacts.class);
-            startActivity(pantalla3);
-            //Intent google = new Intent(Intent.ACTION_VIEW);
-            //google.setData(Uri.parse("http://www.google.es"));
+            showContactsApp();
+
             //startActivity(google);
         }
 
+        public void showContactsApp(){
+
+            Intent intent  = new Intent();
+            intent.setComponent(new ComponentName("com.android.contacts", "com.android.contacts.DialtactsContactsEntryActivity"));
+            intent.setAction("android.intent.action.MAIN");
+            intent.addCategory("android.intent.category.LAUNCHER");
+            intent.addCategory("android.intent.category.DEFAULT");
+            startActivity(intent);
+
+        }
 }
