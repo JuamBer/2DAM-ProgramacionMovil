@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">002.Contador</string>
+    <string name="tvTitulo">Mi Super Contador</string>
+    <string name="btnMas">+</string>
+    <string name="btnMenos">-</string>
+    <string name="btnReset">reset</string>
+    <string name="cvValMin">Valor Mínimo 0</string>
+    <string name="cvValMax">Valor Máximo 50</string>
+    <string name="tvCuenta">0</string>
+</resources>
