@@ -42,12 +42,12 @@ public class Contador extends AppCompatActivity implements View.OnClickListener{
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btnMas:
-                cuenta.setText("DFDF");
+
                 if((valorCuenta+1)>valorMax){
 
                 }else{
                     valorCuenta++;
-                    cuenta.setText(this.valorCuenta);
+                    cuenta.setText(String.valueOf(valorCuenta));
                 }
                 break;
             case R.id.btnMenos:
@@ -55,12 +55,12 @@ public class Contador extends AppCompatActivity implements View.OnClickListener{
 
                 }else{
                     this.valorCuenta--;
-                    cuenta.setText(this.valorCuenta);
+                    cuenta.setText(String.valueOf(valorCuenta));
                 }
                 break;
             case R.id.btnReset:
                 this.valorCuenta=0;
-                cuenta.setText(this.valorCuenta);
+                cuenta.setText(String.valueOf(valorCuenta));
                 break;
             case R.id.cvValMin:
                 this.isVmin = !this.isVmin;
