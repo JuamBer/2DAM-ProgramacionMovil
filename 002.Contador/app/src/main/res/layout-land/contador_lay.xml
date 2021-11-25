@@ -2,10 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cont_land"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Contador"
-    android:background="#E64CAF50">
+    android:background="#fff">
 
     <TextView
         android:id="@+id/tvTitulo"
@@ -24,13 +24,13 @@
         android:id="@+id/tvCuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="@style/tvCuenta"
         android:text="@string/tvCuenta"
+        android:textAppearance="@style/tvCuenta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.277" />
+        app:layout_constraintVertical_bias="0.498" />
 
     <Button
         android:id="@+id/btnMas"
@@ -40,9 +40,11 @@
         android:text="@string/btnMas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/btnMenos"
@@ -52,41 +54,49 @@
         android:text="@string/btnMenos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintHorizontal_bias="0.864"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.283"
+        tools:ignore="TextContrastCheck" />
 
     <CheckBox
         android:id="@+id/cvValMin"
+        style="@style/cvVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="88dp"
         android:text="@string/cvValMin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.899"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvCuenta" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCuenta"
+        app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
         android:id="@+id/cvValMax"
+        style="@style/cvVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="88dp"
         android:text="@string/cvValMax"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvCuenta"
-        app:layout_constraintVertical_bias="0.686" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnReset"
         style="@style/btnReset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
         android:text="@string/btnReset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

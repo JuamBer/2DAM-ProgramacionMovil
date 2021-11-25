@@ -3,6 +3,7 @@ package com.example.contador;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -18,11 +19,21 @@ public class Contador extends AppCompatActivity implements View.OnClickListener{
     private boolean isVmax = false;
     private final static int valorMin = 0;
     private final static int valorMax = 50;
-    private int valorCuenta = 0;
+    static final String CUENTA = "cuenta";
+    private int valorCuenta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (savedInstanceState != null) {
+            Log.i("PRACTICA 00", "savedInstanceState existe "+savedInstanceState.getString(CUENTA));
+
+            // Restore value of members from saved state
+            valorCuenta = Integer.parseInt(savedInstanceState.getString(CUENTA));
+        } else {
+            // Probably initialize members with default values for a new instance
+            valorCuenta = 0;
+        }
         setContentView(R.layout.contador_lay);
 
         cuenta = findViewById(R.id.tvCuenta);
@@ -43,18 +54,25 @@ public class Contador extends AppCompatActivity implements View.OnClickListener{
         switch (view.getId()){
             case R.id.btnMas:
 
-                if((valorCuenta+1)>valorMax){
-
+                if(this.isVmax){
+                    if(!((valorCuenta+1)>valorMax)){
+                        valorCuenta++;
+                        cuenta.setText(String.valueOf(valorCuenta));
+                    }
                 }else{
                     valorCuenta++;
                     cuenta.setText(String.valueOf(valorCuenta));
                 }
+
                 break;
             case R.id.btnMenos:
-                if((this.valorCuenta-1)<this.valorMin){
-
+                if(this.isVmin){
+                    if(!((valorCuenta-1)<valorMin)){
+                        valorCuenta--;
+                        cuenta.setText(String.valueOf(valorCuenta));
+                    }
                 }else{
-                    this.valorCuenta--;
+                    valorCuenta--;
                     cuenta.setText(String.valueOf(valorCuenta));
                 }
                 break;
@@ -63,11 +81,27 @@ public class Contador extends AppCompatActivity implements View.OnClickListener{
                 cuenta.setText(String.valueOf(valorCuenta));
                 break;
             case R.id.cvValMin:
+                if(this.valorCuenta < 0){
+                    this.valorCuenta = 0;
+                    cuenta.setText(String.valueOf(valorCuenta));
+                }
                 this.isVmin = !this.isVmin;
                 break;
             case R.id.cvValMax:
+                if(this.valorCuenta > 50){
+                    this.valorCuenta = 50;
+                    cuenta.setText(String.valueOf(valorCuenta));
+                }
                 this.isVmax = !this.isVmax;
                 break;
         }
     }
+
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+        savedInstanceState.putString(CUENTA, String.valueOf(valorCuenta));
+        // Always call the superclass so it can save the view hierarchy state
+        super.onSaveInstanceState(savedInstanceState);
+    }
+
 }

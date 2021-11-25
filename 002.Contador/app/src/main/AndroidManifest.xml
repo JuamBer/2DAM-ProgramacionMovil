@@ -11,6 +11,7 @@
         android:theme="@style/Theme.002Contador">
         <activity
             android:name=".Contador"
+            android:screenOrientation="fullSensor"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
