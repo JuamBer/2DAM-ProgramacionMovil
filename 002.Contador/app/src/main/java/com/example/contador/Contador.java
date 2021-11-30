@@ -25,15 +25,7 @@ public class Contador extends AppCompatActivity implements View.OnClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (savedInstanceState != null) {
-            Log.i("PRACTICA 00", "savedInstanceState existe "+savedInstanceState.getString(CUENTA));
 
-            // Restore value of members from saved state
-            valorCuenta = Integer.parseInt(savedInstanceState.getString(CUENTA));
-        } else {
-            // Probably initialize members with default values for a new instance
-            valorCuenta = 0;
-        }
         setContentView(R.layout.contador_lay);
 
         cuenta = findViewById(R.id.tvCuenta);
@@ -47,6 +39,19 @@ public class Contador extends AppCompatActivity implements View.OnClickListener{
         min.setOnClickListener(this);
         max = findViewById(R.id.cvValMax);
         max.setOnClickListener(this);
+
+        if (savedInstanceState != null) {
+            Log.i("PRACTICA 00", "savedInstanceState existe "+savedInstanceState.getString(CUENTA));
+
+            // Restore value of members from saved state
+            valorCuenta = Integer.parseInt(savedInstanceState.getString(CUENTA));
+            cuenta.setText(String.valueOf(valorCuenta));
+        } else {
+            // Probably initialize members with default values for a new instance
+            valorCuenta = 0;
+            cuenta.setText(String.valueOf(valorCuenta));
+        }
+
     }
 
     @Override
