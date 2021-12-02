@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">003.Controles</string>
+    <string name="tv5_1">Texto construido desde XML \nTamaño 20dp, Bold y color Red</string>
+    <string name="tv5_2" />
+    <string name="tv5_3">Texto construido desde XML</string>
+    <string name="tv5_4">TEXTO ESCRITO FUENTE UMBRELLA</string>
+</resources>
