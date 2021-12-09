@@ -4,4 +4,9 @@
     <string name="tv5_2" />
     <string name="tv5_3">Texto construido desde XML</string>
     <string name="tv5_4">TEXTO ESCRITO FUENTE UMBRELLA</string>
+    <string name="ejercicio5_2_tv">ejercicio5_2_</string>
+    <string name="ejercicio5_2_btn">Activar Animación</string>
+    <string name="ejercicio5_3_btn1">Click</string>
+    <string name="ejercicio5_3_btn2">Long</string>
+    <string name="ejercicio5_3_tv" />
 </resources>
