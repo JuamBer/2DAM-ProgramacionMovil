@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="tv5_1">
-        <item name="android:textSize">20dp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#F30707</item>
-        <item name="android:textAlignment">center</item>
-    </style>
 
-    <style name="tv5_2">
-        <item name="android:textSize">20dp</item>
-        <item name="android:textStyle">italic</item>
-        <item name="android:textColor">#1E5DDD</item>
-        <item name="android:textAlignment">center</item>
-    </style>
+    <!-- EJERCICIO 5_1 -->
+        <!-- EJERCICIO 5_1_1 -->
+        <style name="ejercicio5_1_1_tv">
+            <item name="android:textSize">20dp</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:textColor">#F30707</item>
+            <item name="android:textAlignment">center</item>
+        </style>
 
-    <style name="tv5_3">
-        <item name="android:textSize">20dp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#F30707</item>
-        <item name="android:textAlignment">center</item>
-    </style>
+        <!-- EJERCICIO 5_1_2 -->
+        <style name="ejercicio5_1_2_tv">
+            <item name="android:textSize">20dp</item>
+            <item name="android:textStyle">italic</item>
+            <item name="android:textColor">#1E5DDD</item>
+            <item name="android:textAlignment">center</item>
+        </style>
 
-    <style name="tv5_4">
-        <item name="android:textSize">20dp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#F30707</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:fontFamily">@font/aclonica</item>
-    </style>
+        <!-- EJERCICIO 5_1_3 -->
+        <style name="ejercicio5_1_3_tv">
+            <item name="android:textSize">20dp</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:textColor">#F30707</item>
+            <item name="android:textAlignment">center</item>
+        </style>
+
+        <!-- EJERCICIO 5_1_4 -->
+        <style name="ejercicio5_1_4_tv">
+            <item name="android:textSize">20dp</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:textColor">#F30707</item>
+            <item name="android:textAlignment">center</item>
+            <item name="android:fontFamily">@font/aclonica</item>
+        </style>
 </resources>

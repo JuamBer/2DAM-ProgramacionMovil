@@ -1,12 +1,33 @@
 <resources>
     <string name="app_name">003.Controles</string>
-    <string name="tv5_1">Texto construido desde XML \nTamaño 20dp, Bold y color Red</string>
-    <string name="tv5_2" />
-    <string name="tv5_3">Texto construido desde XML</string>
-    <string name="tv5_4">TEXTO ESCRITO FUENTE UMBRELLA</string>
+
+    <!-- EJERCICIO 5_1 -->
+        <!-- EJERCICIO 5_1_1 -->
+        <string name="ejercicio5_1_1_tv">Texto construido desde XML \nTamaño 20dp, Bold y color Red</string>
+
+        <!-- EJERCICIO 5_1_2 -->
+        <string name="ejercicio5_1_2_tv" />
+
+        <!-- EJERCICIO 5_1_3 -->
+        <string name="ejercicio5_1_3_tv">Texto construido desde XML</string>
+
+        <!-- EJERCICIO 5_1_4 -->
+        <string name="ejercicio5_1_4_tv">TEXTO ESCRITO FUENTE UMBRELLA</string>
+
+    <!-- EJERCICIO 5_2 -->
     <string name="ejercicio5_2_tv">ejercicio5_2_</string>
     <string name="ejercicio5_2_btn">Activar Animación</string>
+
+    <!-- EJERCICIO 5_3 -->
     <string name="ejercicio5_3_btn1">Click</string>
     <string name="ejercicio5_3_btn2">Long</string>
     <string name="ejercicio5_3_tv" />
+    <string name="ejercicio5_3_img_description">null</string>
+
+    <!-- EJERCICIO 5_4 -->
+    <string name="ejercicio5_4_1_btn">BTN</string>
+    <string name="ejercicio5_4_1_tv">TV</string>
+    <string name="ejercicio5_4_2_btn1">BTN1</string>
+    <string name="ejercicio5_4_2_btn2">BTN</string>
+    <string name="ejercicio5_4_2_tv">TV</string>
 </resources>

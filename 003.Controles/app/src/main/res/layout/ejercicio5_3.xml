@@ -35,11 +35,17 @@
         android:id="@+id/ejercicio5_3_img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/ejercicio5_3_img_description"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img"
+        tools:srcCompat="@drawable/img"
+        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/ejercicio5_3_tv"
