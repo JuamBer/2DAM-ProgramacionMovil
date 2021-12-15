@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.layouts.R;
 
-public class Ejercicio2 extends AppCompatActivity {
+public class Ejercicio1_2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

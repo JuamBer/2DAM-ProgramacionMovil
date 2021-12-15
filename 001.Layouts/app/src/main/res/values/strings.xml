@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">002.Layouts</string>
+    <string name="app_name">001.Layouts</string>
+
+
+    <!-- ACTIVITY MAIN -->
+    <string name="activity_main_tv">EJERCICIOS TEMA 4</string>
+    <string name="activity_main_btn_1_1">1.1</string>
+    <string name="activity_main_btn_1_2">1.2</string>
+    <string name="activity_main_btn_1_3">1.3</string>
+    <string name="activity_main_btn_1_4">1.4</string>
+    <string name="activity_main_btn_2">2</string>
+    <string name="activity_main_btn_3">3</string>
+    <string name="activity_main_btn_4">4</string>
+    <string name="activity_main_btn_5">5</string>
+
+
 </resources>

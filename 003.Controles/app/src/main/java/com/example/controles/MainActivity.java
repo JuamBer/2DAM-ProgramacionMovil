@@ -2,169 +2,145 @@ package com.example.controles;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.PointF;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
-    // EJERCICIO 5_1
-        //EJERCICIO 5_2_1
 
-        //EJERCICIO 5_2_2
-        /*
-        private TextView ejercicio5_1_2_tv;
-        */
+    //EJERCICIO 1
+    private Button activity_main_btn_1_1;
+    private Button activity_main_btn_1_2;
+    private Button activity_main_btn_1_3;
+    private Button activity_main_btn_1_4;
+    //EJERCICIO 2
+    private Button activity_main_btn_2;
+    //EJERCICIO 3
+    private Button activity_main_btn_3;
+    //EJERCICIO 4
+    private Button activity_main_btn_4_1;
+    private Button activity_main_btn_4_2;
+    //EJERCICIO 5
+    private Button activity_main_btn_5;
+    //EJERCICIO 6
+    private Button activity_main_btn_6;
+    //EJERCICIO 7
+    private Button activity_main_btn_7;
 
-        //EJERCICIO 5_2_3
-        /*
-        private TextView ejercicio5_1_3_tv;
-        */
-
-        //EJERCICIO 5_2_4
-
-    //EJERCICIO 5_2
-        /*
-        private TextView ejercicio5_2_tv;
-        private Button ejercicio5_2_btn;
-        */
-
-
-    //EJERCICIO 5_3
-        /*
-        private Button ejercicio5_3_btn1;
-        private Button ejercicio5_3_btn2;
-        private ImageView ejercicio5_3_img;
-        private TextView ejercicio5_3_tv;
-        */
-
-    //EJERCICIO 5_4
-
-    //EJERCICIO 5_5
-
-    //EJERCICIO 5_6
-
-    //EJERCICIO 5_7
+    protected void cargarActivity(String activity) {
+        try {
+            Intent intent = new Intent(this, Class.forName(activity));
+            startActivity(intent);
+        } catch (ClassNotFoundException ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        //EJERCICIO 5_1
-            //EJERCICIO 5_2_1
-                /*
-                setContentView(R.layout.ejercicio5_1_1);
-                */
+        //EJERCICIO 1
+        this.activity_main_btn_1_1 = findViewById(R.id.activity_main_btn_1_1);
+        this.activity_main_btn_1_2 = findViewById(R.id.activity_main_btn_1_2);
+        this.activity_main_btn_1_3 = findViewById(R.id.activity_main_btn_1_3);
+        this.activity_main_btn_1_4 = findViewById(R.id.activity_main_btn_1_4);
 
-            //EJERCICIO 5_2_2
-                /*
-                setContentView(R.layout.ejercicio5_1_2);
-                this.ejercicio5_1_2_tv = findViewById(R.id.ejercicio5_1_2_tv);
-                this.ejercicio5_1_2_tv.setText("Texto Contruido desde Java \nTamaño 20dp, Itálic y color Blue");
-                */
-
-            //EJERCICIO 5_2_3
-                /*
-                setContentView(R.layout.ejercicio5_1_3);
-                this.ejercicio5_1_3_tv = findViewById(R.id.ejercicio5_1_3_tv);
-                this.ejercicio5_1_3_tv.append("\nTexto añadido con append desde Java");
-                */
-
-            //EJERCICIO 5_2_4
-                /*
-                setContentView(R.layout.ejercicio5_1_4);
-                 */
-
-        //EJERCICIO 5_2
-            /*
-            setContentView(R.layout.ejercicio5_2);
-            this.ejercicio5_2_tv = findViewById(R.id.ejercicio5_2_tv);
-            this.ejercicio5_2_btn = findViewById(R.id.ejercicio5_2_btn);
-            ejercicio5_2_btn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    activarAnimacion();
-                }
-            });
-            */
-
-        //EJERCICIO 5_3
-            /*
-            setContentView(R.layout.ejercicio5_3);
-            this.ejercicio5_3_btn1 = findViewById(R.id.ejercicio5_3_btn1);
-            this.ejercicio5_3_btn2 = findViewById(R.id.ejercicio5_3_btn2);
-            this.ejercicio5_3_img = findViewById(R.id.ejercicio5_3_img);
-            this.ejercicio5_3_tv = findViewById(R.id.ejercicio5_3_tv);
-
-            ejercicio5_3_btn1.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    activarListener("Listener Click");
-                }
-            });
+        activity_main_btn_1_1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cargarActivity("com.example.controles.Ejercicio5_1.Ejercicio5_1_1");
+            }
+        });
+        activity_main_btn_1_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cargarActivity("com.example.controles.Ejercicio5_1.Ejercicio5_1_2");
+            }
+        });
+        activity_main_btn_1_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cargarActivity("com.example.controles.Ejercicio5_1.Ejercicio5_1_3");
+            }
+        });
+        activity_main_btn_1_4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cargarActivity("com.example.controles.Ejercicio5_1.Ejercicio5_1_4");
+            }
+        });
 
 
-            ejercicio5_3_btn2.setOnLongClickListener(new View.OnLongClickListener() {
-                @Override
-                public boolean onLongClick(View v) {
-                    activarListener("Listener Long Click");
-                    return true;
-                }
-            });
+        //EJERCICIO 2
+        this.activity_main_btn_2 = findViewById(R.id.activity_main_btn_2);
 
-            ejercicio5_3_img.setOnTouchListener(new View.OnTouchListener(){
-                @Override
-                public boolean onTouch(View view, MotionEvent event) {
-                    float x_inicial = 0;
-                    float x_final = 0;
-                    float res;
+        activity_main_btn_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cargarActivity("com.example.controles.Ejercicio5_2.Ejercicio5_2");
+            }
+        });
 
-                    switch (event.getAction()){
-                        case MotionEvent.ACTION_DOWN:
-                            x_inicial = event.getX();
-                            break;
-                        case MotionEvent.ACTION_MOVE:
-                            x_final = event.getX();
-                            res = x_final-x_inicial;
-                            ejercicio5_3_img.setX(ejercicio5_3_img.getX()+res);
-                            break;
-                    }
 
-                    return true;
-                }
-            });
-            */
+        //EJERCICIO 3
+        this.activity_main_btn_3 = findViewById(R.id.activity_main_btn_3);
 
-        //EJERCICIO 5_4
+        activity_main_btn_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cargarActivity("com.example.controles.Ejercicio5_3.Ejercicio5_3");
+            }
+        });
 
-        //EJERCICIO 5_5
+        //EJERCICIO 4
+        this.activity_main_btn_4_1 = findViewById(R.id.activity_main_btn_4_1);
+        this.activity_main_btn_4_2 = findViewById(R.id.activity_main_btn_4_2);
 
-        //EJERCICIO 5_6
+        activity_main_btn_4_1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cargarActivity("com.example.controles.Ejercicio5_4.Ejercicio5_4_1");
+            }
+        });
+        activity_main_btn_4_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cargarActivity("com.example.controles.Ejercicio5_4.Ejercicio5_4_2");
+            }
+        });
 
-        //EJERCICIO 5_7
+        //EJERCICIO 5
+        this.activity_main_btn_5 = findViewById(R.id.activity_main_btn_5);
+
+        activity_main_btn_5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cargarActivity("com.example.controles.Ejercicio5_5.Ejercicio5_5");
+            }
+        });
+
+        //EJERCICIO 6
+        this.activity_main_btn_6 = findViewById(R.id.activity_main_btn_6);
+
+        activity_main_btn_6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cargarActivity("com.example.controles.Ejercicio5_6.Ejercicio5_6");
+            }
+        });
+
+        //EJERCICIO 7
+        this.activity_main_btn_7 = findViewById(R.id.activity_main_btn_7);
+
+        activity_main_btn_7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cargarActivity("com.example.controles.Ejercicio5_7.Ejercicio5_7");
+            }
+        });
     }
-    //EJERCICIO 5_2
-    /*
-    protected void activarAnimacion(){
-        Animation miAnimacion = AnimationUtils.loadAnimation(this, R.anim.animacion1);
-        miAnimacion.setRepeatMode(Animation.RESTART);
-        miAnimacion.setRepeatCount(1);
-        ejercicio5_2_tv.startAnimation(miAnimacion);
-    }
-    */
-    //EJERCICIO 5_3
-    /*
-    protected void activarListener(String val){
-        ejercicio5_3_tv.setText(val);
-    }
-    */
 }

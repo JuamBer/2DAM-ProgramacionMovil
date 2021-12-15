@@ -7,4 +7,5 @@
     <string name="hintMessage" />
     <string name="input"></string>
     <string name="inputhint">Dinos cuál es tu nombre</string>
+    <string name="activity2_tv">ACTIVITY 2 !</string>
 </resources>

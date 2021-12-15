@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- ACTIVITY MAIN -->
+    <style name="activity_main_tv">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#3A3A3A</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="activity_main_btn">
+        <item name="android:backgroundTint">#009688</item>
+    </style>
+
     <!-- EJERCICIO 5_1 -->
         <!-- EJERCICIO 5_1_1 -->
         <style name="ejercicio5_1_1_tv">

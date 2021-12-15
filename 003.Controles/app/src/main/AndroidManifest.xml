@@ -14,9 +14,116 @@
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+        <!-- EJERCICIO 5_1 -->
+            <!-- EJERCICIO 5_1_1 -->
+            <activity
+                android:name=".Ejercicio5_1.Ejercicio5_1_1"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN"/>
+                    <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+            </activity>
+            <!-- EJERCICIO 5_1_2 -->
+            <activity
+                android:name=".Ejercicio5_1.Ejercicio5_1_2"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN"/>
+                    <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+            </activity>
+            <!-- EJERCICIO 5_1_3 -->
+            <activity
+                android:name=".Ejercicio5_1.Ejercicio5_1_3"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN"/>
+                    <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+            </activity>
+            <!-- EJERCICIO 5_1_4 -->
+            <activity
+                android:name=".Ejercicio5_1.Ejercicio5_1_4"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN"/>
+                    <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+            </activity>
+
+        <!-- EJERCICIO 5_2 -->
+            <activity
+                android:name=".Ejercicio5_2.Ejercicio5_2"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN"/>
+                    <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+            </activity>
+
+        <!-- EJERCICIO 5_3 -->
+            <activity
+                android:name=".Ejercicio5_3.Ejercicio5_3"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN"/>
+                    <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+            </activity>
+
+        <!-- EJERCICIO 5_4 -->
+            <!-- EJERCICIO 5_4_1 -->
+            <activity
+                android:name=".Ejercicio5_4.Ejercicio5_4_1"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN"/>
+                    <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+            </activity>
+            <!-- EJERCICIO 5_4_2 -->
+            <activity
+                android:name=".Ejercicio5_4.Ejercicio5_4_2"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN"/>
+                    <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+            </activity>
+
+        <!-- EJERCICIO 5_5 -->
+            <activity
+                android:name=".Ejercicio5_5.Ejercicio5_5"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN"/>
+                    <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+            </activity>
+
+        <!-- EJERCICIO 5_6 -->
+        <activity
+            android:name=".Ejercicio5_6.Ejercicio5_6"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <!-- EJERCICIO 5_7 -->
+        <activity
+            android:name=".Ejercicio5_7.Ejercicio5_7"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
 

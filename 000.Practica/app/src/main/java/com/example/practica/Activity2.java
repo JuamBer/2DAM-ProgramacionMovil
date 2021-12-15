@@ -11,7 +11,6 @@ import java.util.ArrayList;
 public class Activity2 extends AppCompatActivity{
 
         private Button exit;
-        private ArrayList<ContactsInfo> contactsInfoList;
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -53,20 +52,5 @@ public class Activity2 extends AppCompatActivity{
         protected void onDestroy(){
             super.onDestroy();
             Log.i("PRACTICA 00", "Estoy onDestroy (Pantalla2)");
-
-            showContactsApp();
-
-            //startActivity(google);
-        }
-
-        public void showContactsApp(){
-
-            Intent intent  = new Intent();
-            intent.setComponent(new ComponentName("com.android.contacts", "com.android.contacts.DialtactsContactsEntryActivity"));
-            intent.setAction("android.intent.action.MAIN");
-            intent.addCategory("android.intent.category.LAUNCHER");
-            intent.addCategory("android.intent.category.DEFAULT");
-            startActivity(intent);
-
         }
 }
