@@ -39,10 +39,38 @@
     <string name="ejercicio5_3_img_description">null</string>
 
     <!-- EJERCICIO 5_4 -->
+    <string name="ejercicio5_4_1_tv">BOTÓN SIN PULSAR</string>
     <string name="ejercicio5_4_1_btn">BTN</string>
-    <string name="ejercicio5_4_1_tv">TV</string>
-    <string name="ejercicio5_4_2_btn1">BTN1</string>
-    <string name="ejercicio5_4_2_btn2">BTN</string>
-    <string name="ejercicio5_4_2_tv">TV</string>
-    
+    <string name="ejercicio5_4_2_tv">BOTÓN SIN PULSAR</string>
+    <string name="ejercicio5_4_2_btn1">BTN 1</string>
+    <string name="ejercicio5_4_2_btn2">BTN 2</string>
+
+    <!-- EJERCICIO 5_5 -->
+    <string name="ejercicio5_5_et1">actionNone</string>
+    <string name="ejercicio5_5_et2">actionGo</string>
+    <string name="ejercicio5_5_et3">actionSearch</string>
+    <string name="ejercicio5_5_et4">actionSend</string>
+    <string name="ejercicio5_5_et5">actionDone</string>
+    <string name="ejercicio5_5_et6">actionNext</string>
+    <string name="ejercicio5_5_et7">ActionPrevious</string>
+    <string name="ejercicio5_5_et8">actionUnspecified</string>
+    <string name="ejercicio5_5_et9">Default</string>
+
+
+    <!-- EJERCICIO 5_6 -->
+    <string name="ejercicio5_6_rb_1">Lunes</string>
+    <string name="ejercicio5_6_rb_2">Martes</string>
+    <string name="ejercicio5_6_rb_3">Miercoles</string>
+    <string name="ejercicio5_6_rb_4">Jueves</string>
+    <string name="ejercicio5_6_rb_5">Viernes</string>
+    <string name="ejercicio5_6_rb_6">Sábado</string>
+    <string name="ejercicio5_6_rb_7">Domingo</string>
+
+    <!-- EJERCICIO 5_7 -->
+    <string name="ejercicio5_7_tv_1">VALOR: 0</string>
+    <string name="ejercicio5_7_tv_2">VALOR: 0</string>
+    <string name="ejercicio5_6_tv">"PULSADO: "</string>
+
+
+
 </resources>

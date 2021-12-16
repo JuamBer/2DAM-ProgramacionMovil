@@ -33,18 +33,17 @@
 
     <ImageView
         android:id="@+id/ejercicio5_3_img"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="405dp"
+        android:layout_height="549dp"
         android:contentDescription="@string/ejercicio5_3_img_description"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/img"
-        tools:srcCompat="@drawable/img"
+        app:layout_constraintVertical_bias="0.769"
+        app:srcCompat="@drawable/img2"
+        tools:srcCompat="@drawable/img2"
         tools:visibility="visible" />
 
     <TextView

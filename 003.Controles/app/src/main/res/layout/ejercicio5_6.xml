@@ -7,4 +7,67 @@
     android:layout_height="match_parent">
 
 
+    <RadioGroup
+        android:id="@+id/ejercicio5_6_rdg"
+        android:layout_width="354dp"
+        android:layout_height="419dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/ejercicio5_6_rb_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejercicio5_6_rb_1" />
+
+        <RadioButton
+            android:id="@+id/ejercicio5_6_rb_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejercicio5_6_rb_2" />
+
+        <RadioButton
+            android:id="@+id/ejercicio5_6_rb_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejercicio5_6_rb_3" />
+
+        <RadioButton
+            android:id="@+id/ejercicio5_6_rb_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejercicio5_6_rb_4" />
+
+        <RadioButton
+            android:id="@+id/ejercicio5_6_rb_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejercicio5_6_rb_5" />
+
+        <RadioButton
+            android:id="@+id/ejercicio5_6_rb_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejercicio5_6_rb_6" />
+
+        <RadioButton
+            android:id="@+id/ejercicio5_6_rb_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejercicio5_6_rb_7" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/ejercicio5_6_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ejercicio5_6_tv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
 </androidx.constraintlayout.widget.ConstraintLayout>
