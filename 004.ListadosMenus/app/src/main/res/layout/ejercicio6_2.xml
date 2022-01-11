@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ejercicio6_2"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ListView
+        android:id="@+id/ejercicio6_2_lv"
+        android:layout_width="match_parent"
+        android:layout_height="648dp"></ListView>
+
+    <TextView
+        android:id="@+id/ejercicio6_2_tv"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:text=""
+        android:textAppearance="@style/ejercicio6_2_tv"
+        tools:text="@string/ejercicio6_2_tv" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">004.ListadosMenus</string>
+
+    <!-- ACTIVITY MAIN -->
+    <string name="activity_main_tv">EJERCICIOS TEMA 6</string>
+    <string name="activity_main_btn_1">1</string>
+    <string name="activity_main_btn_2">2</string>
+    <string name="activity_main_btn_3">3</string>
+    <string name="activity_main_btn_4">4</string>
+    <string name="activity_main_btn_5">5</string>
+
+    <!-- EJERCICIO 6_2 -->
+    <string name="ejercicio6_2_tv">Selecciona Un Pais</string>
+
+    <!-- EJERCICIO 6_3 -->
+    <string name="ejercicio6_3_tv">Selecciona Un Pais</string>
+
+    <!-- EJERCICIO 6_4 -->
+    <string name="ejercicio6_4_tv">Selecciona Un Pais</string>
+
+</resources>
