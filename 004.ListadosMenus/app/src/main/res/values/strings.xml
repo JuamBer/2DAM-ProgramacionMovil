@@ -8,6 +8,8 @@
     <string name="activity_main_btn_3">3</string>
     <string name="activity_main_btn_4">4</string>
     <string name="activity_main_btn_5">5</string>
+    <string name="activity_main_btn_6">6</string>
+    <string name="activity_main_btn_7">7</string>
 
     <!-- EJERCICIO 6_2 -->
     <string name="ejercicio6_2_tv">Selecciona Un Pais</string>
