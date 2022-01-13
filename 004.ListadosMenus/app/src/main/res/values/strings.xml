@@ -20,4 +20,8 @@
     <!-- EJERCICIO 6_4 -->
     <string name="ejercicio6_4_tv">Selecciona Un Pais</string>
 
+    <!-- EJERCICIO 6_5 -->
+    <string name="texto_titulo">Titulo Ejemplo</string>
+    <string name="texto_datos">El 6 de diciembre de 2010, el SDK de Android 2.3 Gingerbread (Pan de Jengibre) fue lanzado, basado en el núcleo Linux 2.6.35.</string>
+
 </resources>

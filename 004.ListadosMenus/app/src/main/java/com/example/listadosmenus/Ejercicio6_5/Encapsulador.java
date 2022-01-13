@@ -1,19 +1,19 @@
 package com.example.listadosmenus.Ejercicio6_5;
 
-public class Item {
-    private String img;
+public class Encapsulador {
+    private int img;
     private String titulo;
     private String texto;
     private boolean dato1;
 
-    public Item(String img, String titulo, String texto, boolean dato1){
+    public Encapsulador(int img, String titulo, String texto, boolean dato1){
         this.img = img;
         this.titulo = titulo;
         this.texto = texto;
         this.dato1 = dato1;
     }
 
-    public String getImg(){
+    public int getImg(){
         return this.img;
     }
     public String getTitulo(){
