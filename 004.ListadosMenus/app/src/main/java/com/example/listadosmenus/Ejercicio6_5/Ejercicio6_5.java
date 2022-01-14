@@ -57,17 +57,7 @@ public class Ejercicio6_5 extends AppCompatActivity {
                     public void onClick(View view) {
                         if(radioButton != null) radioButton.setChecked(false);
                         radioButton = (RadioButton) view;
-                        texto.setText("MARCADA UNA OPCION");
-                    }
-                });
-
-                lista.setOnItemClickListener(new AdapterView.OnItemClickListener(){
-                    @Override
-                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                        Encapsulador element = (Encapsulador) adapterView.getItemAtPosition(i);
-                        CharSequence textoElegido = "Seleccionado: " + element.getTitulo();
-                        texto.setText(element.getTexto());
-                        Log.i("onItemClick: ",element.getTexto());
+                        texto.setText(((Encapsulador) entrada).getTitulo());
                     }
                 });
             }

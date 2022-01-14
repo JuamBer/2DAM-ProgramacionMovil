@@ -9,13 +9,15 @@
 
     <ListView
         android:id="@+id/ejercicio6_5_lv"
+        style="@style/ejercicio6_5_lv"
         android:layout_width="match_parent"
-        android:layout_height="648dp">
-    </ListView>
+        android:layout_height="648dp"></ListView>
 
     <TextView
         android:id="@+id/ejercicio6_5_tv"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/ejercicio6_5_tv"
+        android:textAlignment="center"
+        android:textAppearance="@style/ejercicio6_5_tv" />
 </LinearLayout>
