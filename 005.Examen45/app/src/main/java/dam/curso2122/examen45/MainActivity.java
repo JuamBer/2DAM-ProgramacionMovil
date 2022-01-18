@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
                 red = i;
+                miColor.setText("Rojo=\""+String.valueOf(red)+"\""+" Green=\""+String.valueOf(green)+"\""+ " Blue=\""+String.valueOf(blue)+"\"");
                 miColor.setTextColor(Color.rgb(red,green,blue));
             }
             @Override
@@ -54,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
                 green = i;
+                miColor.setText("Rojo=\""+String.valueOf(red)+"\""+" Green=\""+String.valueOf(green)+"\""+ " Blue=\""+String.valueOf(blue)+"\"");
                 miColor.setTextColor(Color.rgb(red,green,blue));
             }
             @Override
@@ -67,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
                 blue = i;
+                miColor.setText("Rojo=\""+String.valueOf(red)+"\""+" Green=\""+String.valueOf(green)+"\""+ " Blue=\""+String.valueOf(blue)+"\"");
                 miColor.setTextColor(Color.rgb(red,green,blue));
             }
             @Override
