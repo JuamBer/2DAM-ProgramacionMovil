@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">006.PreferenciasDialogosNotificaciones</string>
+
+    <!-- ACTIVITY MAIN -->
+    <string name="activity_main_tv">EJERCICIOS TEMA 7</string>
+    <string name="activity_main_btn_1">1</string>
+    <string name="activity_main_btn_2">2</string>
+    <string name="activity_main_btn_3">3</string>
+    <string name="activity_main_btn_4">4</string>
+    <string name="activity_main_btn_5">5</string>
+    <string name="activity_main_btn_6">6</string>
+    <string name="activity_main_btn_7">7</string>
+
+    <!-- EJERCICIO_7_1 -->
+    <string name="ejercicio7_1_tv">ACTIVIDAD DE PREFERENCIAS</string>
+    <string name="ejercicio7_1_btn1">DEFINIR PREFERENCIAS</string>
+    <string name="ejercicio7_1_btn2">RECUPERAR PREFERENCIAS</string>
+</resources>

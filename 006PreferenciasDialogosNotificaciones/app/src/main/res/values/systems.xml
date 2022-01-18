@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lista">
+        <item>WINDOWS</item>
+        <item>LINUX</item>
+        <item>IOS</item>
+    </string-array>
+    <string-array name="clavelista">
+        <item>sis1</item>
+        <item>sis2</item>
+        <item>sis3</item>
+    </string-array>
+</resources>
