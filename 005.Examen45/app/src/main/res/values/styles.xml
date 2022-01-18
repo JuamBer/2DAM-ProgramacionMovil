@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ACTIVITY MAIN -->
+    <style name="Main">
+        <item name="android:layout_margin">36sp</item>
+    </style>
+    <style name="SeekBarRed">
+        <item name="android:progressBackgroundTint">#EF7281</item>
+        <item name="android:progressTint">#C12929</item>
+        <item name="android:thumbTint">#FF0000</item>
+    </style>
+    <style name="SeekBarGreen">
+        <item name="android:progressBackgroundTint">#A5FA77</item>
+        <item name="android:progressTint">#2F8F29</item>
+        <item name="android:thumbTint">#26FF00</item>
+    </style>
+    <style name="SeekBarBlue">
+        <item name="android:progressBackgroundTint">#7CB6FD</item>
+        <item name="android:progressTint">#384E9E</item>
+        <item name="android:thumbTint">#0022FF</item>
+    </style>
+    <style name="MiColor">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:color">#3A3A3A</item>
+    </style>
+    <style name="MiBotton">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:backgroundTint">#CD8E2F</item>
+    </style>
+    <!-- CALCULADORA -->
+    <style name="calcButton">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFF</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:backgroundTint">#3A3A3A</item>
+    </style>
+</resources>

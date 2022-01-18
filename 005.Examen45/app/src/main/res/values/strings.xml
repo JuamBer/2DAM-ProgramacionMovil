@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">005. Examen45</string>
+
+    <!-- ACTIVITY MAIN -->
+    <string name="miColor">Bienvenidos a mi Examen</string>
+    <string name="MiBoton">Mostrar layout de calculadora</string>
+
+    <!-- CALCULADORA -->
+    <string name="calcDiv">/</string>
+    <string name="calc1">1</string>
+    <string name="calc2">2</string>
+    <string name="calc3">3</string>
+    <string name="calcMult">*</string>
+    <string name="calc4">4</string>
+    <string name="calc5">5</string>
+    <string name="calc6">6</string>
+    <string name="calcMenos">-</string>
+    <string name="calc7">7</string>
+    <string name="calc8">8</string>
+    <string name="calc9">9</string>
+    <string name="calcMas">+</string>
+    <string name="calc0">0</string>
+    <string name="calc00">00</string>
+    <string name="calcRes">=</string>
+</resources>
