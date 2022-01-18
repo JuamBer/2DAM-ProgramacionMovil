@@ -14,9 +14,11 @@ public class MainActivity extends AppCompatActivity {
     //EJERCICIO 2
     private Button activity_main_btn_2;
     //EJERCICIO 3
-    private Button activity_main_btn_3;
+    private Button activity_main_btn_3_1;
+    private Button activity_main_btn_3_2;
     //EJERCICIO 4
-    private Button activity_main_btn_4;
+    private Button activity_main_btn_4_1;
+    private Button activity_main_btn_4_2;
     //EJERCICIO 5
     private Button activity_main_btn_5;
     //EJERCICIO 6
@@ -59,22 +61,38 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //EJERCICIO 3
-        this.activity_main_btn_3 = findViewById(R.id.activity_main_btn_3);
+        this.activity_main_btn_3_1 = findViewById(R.id.activity_main_btn_3_1);
 
-        activity_main_btn_3.setOnClickListener(new View.OnClickListener() {
+        activity_main_btn_3_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                cargarActivity("com.example.preferenciasdialogosnotificaciones.Ejercicio7_3.Ejercicio7_3");
+                cargarActivity("com.example.preferenciasdialogosnotificaciones.Ejercicio7_3.Ejercicio7_3_1");
+            }
+        });
+        this.activity_main_btn_3_2 = findViewById(R.id.activity_main_btn_3_2);
+
+        activity_main_btn_3_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cargarActivity("com.example.preferenciasdialogosnotificaciones.Ejercicio7_3.Ejercicio7_3_2");
             }
         });
 
         //EJERCICIO 4
-        this.activity_main_btn_4 = findViewById(R.id.activity_main_btn_4);
+        this.activity_main_btn_4_1 = findViewById(R.id.activity_main_btn_4_1);
 
-        activity_main_btn_4.setOnClickListener(new View.OnClickListener() {
+        activity_main_btn_4_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                cargarActivity("com.example.preferenciasdialogosnotificaciones.Ejercicio7_4.Ejercicio7_4");
+                cargarActivity("com.example.preferenciasdialogosnotificaciones.Ejercicio7_4.Ejercicio7_4_1");
+            }
+        });
+        this.activity_main_btn_4_2 = findViewById(R.id.activity_main_btn_4_2);
+
+        activity_main_btn_4_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cargarActivity("com.example.preferenciasdialogosnotificaciones.Ejercicio7_4.Ejercicio7_4_2");
             }
         });
 

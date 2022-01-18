@@ -1,11 +1,15 @@
 package com.example.preferenciasdialogosnotificaciones.Ejercicio7_1;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.preference.PreferenceManager;
+
 import com.example.preferenciasdialogosnotificaciones.R;
 
 public class Ejercicio7_1 extends AppCompatActivity {
@@ -17,6 +21,13 @@ public class Ejercicio7_1 extends AppCompatActivity {
         Intent intent = new Intent(this, Ejercicio7_1_preferencias.class);
         startActivity(intent);
     }
+    protected void cargarDatos(){
+        SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
+        Log.i("TEMA_07", "Opción 1: " + pref.getBoolean("clave1", false));
+        Log.i("TEMA_07", "Opción 2: " + pref.getString("clave2", "No asignada"));
+        Log.i("TEMA_07", "Opción 3: " + pref.getString("clave3", "No asignada"));
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,5 +44,13 @@ public class Ejercicio7_1 extends AppCompatActivity {
             }
         });
 
+        ejercicio7_1_btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cargarDatos();
+            }
+        });
+
     }
+
 }

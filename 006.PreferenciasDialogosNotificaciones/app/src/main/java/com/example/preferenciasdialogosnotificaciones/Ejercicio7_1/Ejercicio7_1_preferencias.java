@@ -10,8 +10,6 @@ import com.example.preferenciasdialogosnotificaciones.R;
 
 public class Ejercicio7_1_preferencias extends PreferenceActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

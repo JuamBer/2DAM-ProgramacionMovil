@@ -5,8 +5,10 @@
     <string name="activity_main_tv">EJERCICIOS TEMA 7</string>
     <string name="activity_main_btn_1">1</string>
     <string name="activity_main_btn_2">2</string>
-    <string name="activity_main_btn_3">3</string>
-    <string name="activity_main_btn_4">4</string>
+    <string name="activity_main_btn_3_1">3.1</string>
+    <string name="activity_main_btn_3_2">3.2</string>
+    <string name="activity_main_btn_4_1">4.1</string>
+    <string name="activity_main_btn_4_2">4.2</string>
     <string name="activity_main_btn_5">5</string>
     <string name="activity_main_btn_6">6</string>
     <string name="activity_main_btn_7">7</string>
@@ -15,4 +17,23 @@
     <string name="ejercicio7_1_tv">ACTIVIDAD DE PREFERENCIAS</string>
     <string name="ejercicio7_1_btn1">DEFINIR PREFERENCIAS</string>
     <string name="ejercicio7_1_btn2">RECUPERAR PREFERENCIAS</string>
+
+    <!-- EJERCICIO_7_2 -->
+    <string name="ejercicio7_2_tv">Mi primer Toast</string>
+
+    <!-- EJERCICIO_7_3 -->
+        <!-- EJERCICIO_7_3_1 -->
+        <string name="ejercicio7_3_1_tv"></string>
+        <string name="ejercicio7_3_1_btn">Muestra Toast</string>
+
+        <!-- EJERCICIO_7_3_2 -->
+        <string name="ejercicio7_3_2_btn">Muestra Toast</string>
+
+    <!-- EJERCICIO_7_4 -->
+        <!-- EJERCICIO_7_4_1 -->
+        <string name="ejercicio7_4_1_btn">Muestra Dialogo</string>
+
+        <!-- EJERCICIO_7_4_2 -->
+        <string name="ejercicio7_4_2_btn">Muestra Dialogo</string>
+
 </resources>
