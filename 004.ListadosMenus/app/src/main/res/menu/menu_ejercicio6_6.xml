@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/dias" android:title="Días de  la semana">
+        <menu>
+            <item android:id="@+id/Lunes" android:title="Lunes"/>
+            <item android:id="@+id/Martes" android:title="Martes"/>
+            <item android:id="@+id/Miercoles" android:title="Miercoles"/>
+            <item android:id="@+id/Jueves" android:title="Jueves"/>
+            <item android:id="@+id/Viernes" android:title="Viernes"/>
+            <item android:id="@+id/Sabado" android:title="Sabado"/>
+            <item android:id="@+id/Domingo" android:title="Domingo"/>
+        </menu>
+    </item>
+</menu>

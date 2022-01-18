@@ -98,14 +98,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //EJERCICIO 7
-        this.activity_main_btn_7 = findViewById(R.id.activity_main_btn_7);
-
-        activity_main_btn_7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                cargarActivity("com.example.listadosmenus.Ejercicio6_7.Ejercicio6_7");
-            }
-        });
     }
 }
