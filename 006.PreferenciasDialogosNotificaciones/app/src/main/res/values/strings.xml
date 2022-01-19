@@ -36,4 +36,8 @@
         <!-- EJERCICIO_7_4_2 -->
         <string name="ejercicio7_4_2_btn">Muestra Dialogo</string>
 
+    <!-- EJERCICIO_7_5 -->
+    <string name="ejercicio7_5_tv"></string>
+    <string name="ejercicio7_5_btn">Muestra Dialogo</string>
+
 </resources>

@@ -1,5 +1,6 @@
 package com.example.preferenciasdialogosnotificaciones.Ejercicio7_4;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,7 +19,22 @@ public class Ejercicio7_4_1 extends AppCompatActivity {
         builder
             .setTitle("TÍTULO DEL DIÁLOGO")
             .setMessage ("EJEMPLO DE DIÁLOGO")
-            .setIcon (R.mipmap.ic_launcher);
+            .setIcon (R.mipmap.ic_launcher)
+            .setPositiveButton ("POSITIVO", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    // Código para realizar
+                }
+            })
+            .setNegativeButton ("NEGATIVO", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    // Código para realizar
+                }
+            })
+            .setNeutralButton ("NEUTRAL", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    // Código para realizar
+                }
+            });
 
         AlertDialog dialogo = builder.create();
         dialogo.show();

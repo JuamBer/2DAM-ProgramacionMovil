@@ -97,6 +97,14 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Ejercicio7_6.Ejercicio7_6_intent"
+            android:parentActivityName=".Ejercicio7_6.Ejercicio7_6">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Ejercicio7_6.Ejercicio7_6"
+                />
+        </activity>
         <!-- EJERCICIO 7_7 -->
         <activity
             android:name=".Ejercicio7_7.Ejercicio7_7"
