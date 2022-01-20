@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">007.MaterialDesign</string>
+
+    <!-- ACTIVITY MAIN -->
+    <string name="activity_main_tv">EJERCICIOS TEMA 8</string>
+    <string name="activity_main_btn_1">1</string>
+    <string name="activity_main_btn_2">2</string>
+    <string name="activity_main_btn_3">3</string>
+</resources>
