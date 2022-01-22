@@ -6,4 +6,11 @@
     <string name="activity_main_btn_1">1</string>
     <string name="activity_main_btn_2">2</string>
     <string name="activity_main_btn_3">3</string>
+
+    <!-- EJERCICIO 8_1 -->
+    <string name="ejercicio8_1_barra_nuevo">AÑADIR</string>
+    <string name="ejercicio8_1_barra_editar">EDITAR</string>
+    <string name="ejercicio8_1_barra_configurar">CONFIGURAR</string>
+    <string name="ejercicio8_1_barra_ayuda">AYUDA</string>
+    <string name="ejercicio8_1_barra_info">ACERCA DE...</string>
 </resources>

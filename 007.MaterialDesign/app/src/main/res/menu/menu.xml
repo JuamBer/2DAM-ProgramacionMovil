@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/barra_nuevo"
+        android:icon="@drawable/nuevo"
+        android:title="@string/ejercicio8_1_barra_nuevo"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/barra_editar"
+        android:icon="@drawable/editar"
+        android:title="@string/ejercicio8_1_barra_editar"
+        app:showAsAction="ifRoom"/>
+    <!-- MENÚ -->
+    <item
+        android:id="@+id/barra_configurar"
+        android:icon="@drawable/configurar"
+        android:title="@string/ejercicio8_1_barra_configurar"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/barra_ayuda"
+        android:icon="@drawable/ayuda"
+        android:title="@string/ejercicio8_1_barra_ayuda"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/barra_acerca"
+        android:icon="@drawable/acerca"
+        android:title="@string/ejercicio8_1_barra_info"
+        app:showAsAction="never"/>
+</menu>

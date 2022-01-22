@@ -15,4 +15,10 @@
     <style name="ejercicio7_1_tv">
         <item name="android:textSize">20dp</item>
     </style>
+
+    <!-- EJERCICIO8_1 -->
+    <style name="NoBarra">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>

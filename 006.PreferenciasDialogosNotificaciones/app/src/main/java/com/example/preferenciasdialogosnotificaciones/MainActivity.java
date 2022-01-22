@@ -23,8 +23,6 @@ public class MainActivity extends AppCompatActivity {
     private Button activity_main_btn_5;
     //EJERCICIO 6
     private Button activity_main_btn_6;
-    //EJERCICIO 7
-    private Button activity_main_btn_7;
 
     protected void cargarActivity(String activity) {
         try {
@@ -113,16 +111,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 cargarActivity("com.example.preferenciasdialogosnotificaciones.Ejercicio7_6.Ejercicio7_6");
-            }
-        });
-
-        //EJERCICIO 7
-        this.activity_main_btn_7 = findViewById(R.id.activity_main_btn_7);
-
-        activity_main_btn_7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                cargarActivity("com.example.preferenciasdialogosnotificaciones.Ejercicio7_7.Ejercicio7_7");
             }
         });
 

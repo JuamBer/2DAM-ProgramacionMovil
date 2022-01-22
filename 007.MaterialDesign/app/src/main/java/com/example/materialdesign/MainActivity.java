@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
         //EJERCICIO 1
         this.activity_main_btn_1 = findViewById(R.id.activity_main_btn_1);
-
         activity_main_btn_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -59,5 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 cargarActivity("com.example.materialdesign.Ejercicio8_3.Ejercicio8_3");
             }
         });
+
+        cargarActivity("com.example.materialdesign.Ejercicio8_1.Ejercicio8_1");
     }
 }

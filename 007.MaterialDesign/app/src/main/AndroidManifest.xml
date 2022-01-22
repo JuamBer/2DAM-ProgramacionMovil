@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.007MaterialDesign">
+
+        <!--android:theme="@style/NoBarra"-->
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
