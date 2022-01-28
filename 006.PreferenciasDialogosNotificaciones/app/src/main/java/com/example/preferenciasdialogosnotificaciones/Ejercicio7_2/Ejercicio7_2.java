@@ -21,6 +21,5 @@ public class Ejercicio7_2 extends AppCompatActivity {
         myToast.setGravity(Gravity.CENTER| Gravity.LEFT,0,0);
         myToast.show();
 
-
     }
 }
