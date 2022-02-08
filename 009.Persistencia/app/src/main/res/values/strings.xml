@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">009.Persistencia</string>
+
+    <!-- ACTIVITY MAIN -->
+    <string name="activity_main_tv">EJERCICIOS TEMA 10</string>
+    <string name="activity_main_btn_1">1</string>
+
+</resources>
